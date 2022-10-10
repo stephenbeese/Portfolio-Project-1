@@ -25,11 +25,17 @@ Users of this site will be able to find out any information they need regarding 
 
 <h3>Validator Testing</h3>
 - HTML
+<br>
     - N/A
+<br>
 - CSS
+<br>
     - N/A
+<br>
 - Accessibility
+<br>
     - N/A
+<br>
 
 <h3>Unfixed Bugs</h3>
 - N/A
@@ -40,6 +46,8 @@ https://stephenbeese.github.io/Portfolio-Project-1/
 
 <h2>Credits</h2>
 <h3>Content</h3>
-N/A
+About Tetris section taken from Tetris Wikipedia - https://en.wikipedia.org/wiki/Tetris 
+<br>
+Tetris Facts section taken from dailydot.com - https://www.dailydot.com/parsec/tetris-game-facts/
 <h3>Media</h3>
 N/A
