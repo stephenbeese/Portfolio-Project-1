@@ -7,9 +7,13 @@ Users of this site will be able to find out any information they need regarding 
 
 <h2>Features</h2>
 - Navigation 
+<br>
 - Header 
+<br>
 - About Tetris Section
+<br>
 - Timeline 
+<br>
 - Sign up to mailing list (for tetris news)
 
 
@@ -31,7 +35,8 @@ Users of this site will be able to find out any information they need regarding 
 - N/A
 
 <h2>Deployment</h2>
-- Not yet deployed
+- This site was deployed to GitHub pages. You can view it via the live link below:
+https://stephenbeese.github.io/Portfolio-Project-1/ 
 
 <h2>Credits</h2>
 <h3>Content</h3>
