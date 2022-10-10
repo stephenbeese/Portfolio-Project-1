@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: rgba(51, 200, 255, 1);
+    background-color: black;
+    color: white;
 }
 /* Header */
 
@@ -24,10 +25,17 @@ header > h1 {
 }
 
 li a {
-    color: black;
+    color: white;
 }
 
 li a:hover {
     font-size: 130%;
-    color: green;
+    color: #aa3456;
+}
+
+/* Gameboy Image */
+
+#gameboy-image img {
+    width: 100%;
+    margin: 0 auto;
 }
