@@ -3,6 +3,14 @@ body {
     background-color: black;
     color: white;
 }
+
+h2 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 110%;
+}
 /* Header */
 
 header > h1 {
@@ -40,7 +48,7 @@ li a:hover {
     margin: 0 auto;
 }
 
-/* About Tetris Section */
+/* About Tetris Section 
 
 #about-tetris {
     font-size: 200%;
@@ -49,4 +57,7 @@ li a:hover {
 .about-tetris {
     font-size: 110%;
 }
+
+Tetris Facts */
+
 
