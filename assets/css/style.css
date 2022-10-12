@@ -65,9 +65,14 @@ Tetris Facts */
 
 footer { 
     height: 100px;
+    text-align: center;
 }
 
 footer a {
     color: white;
+    padding: 3%;
+    font-size: 300%;
 }
+
+
 
