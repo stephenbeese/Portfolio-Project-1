@@ -41,6 +41,11 @@ li a:hover {
     color: #aa3456;
 }
 
+header hr {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 /* Gameboy Image */
 
 #gameboy-image img {
@@ -48,30 +53,53 @@ li a:hover {
     margin: 0 auto;
 }
 
-/* About Tetris Section 
+/* About Tetris Section */
 
 #about-tetris {
-    font-size: 200%;
+    margin-left: 30px;
+    margin-right: 30%;
 }
 
-.about-tetris {
-    font-size: 110%;
+/* Tetris Facts */
+
+#tetris-facts {
+    display: inline;
+    position: relative;
+    top: -463px;
+    float: right;
+    width: 25%;
+    height: 450px;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    margin-right: 30px;
+    padding-right: 5px; 
+    font-size: 120%;
 }
 
-Tetris Facts */
-
+#tetris-facts > h2 {
+    text-align: center;
+}
 
 /* Footer */
 
 footer { 
     height: 100px;
+    min-width: 100%;
     text-align: center;
+    display: block;
+    position: absolute;
 }
 
 footer a {
     color: white;
     padding: 3%;
     font-size: 300%;
+}
+
+footer hr {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
