@@ -7,7 +7,7 @@ body {
     background-color: black;
     color: white;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Press Start 2P', cursive;
     font-weight: 400;
 }
@@ -218,4 +218,10 @@ section h2 {
     width: 20%;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+/* High Scores Page */
+
+table, tr, td, th {
+    border: 1px solid white;
 }
