@@ -55,6 +55,10 @@ Copyright Page text taken from the following:
 - http://www.atarihq.com/tsr/special/tetrishist.html
 <br>
 - https://www.youtube.com/watch?v=wEMHkzUOIE4 
+<br>
+High Scores Page
+<br>
+- Table - https://tetris.wiki/Scoring#Original_Nintendo_scoring_system
 <h3>Media</h3>
 Images 
 <br>
