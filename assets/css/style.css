@@ -159,6 +159,10 @@ section {
     margin-right: 30px;
 }
 
+section h2 {
+    font-size: 250%;
+}
+
 .image-right {
     float: right;
 }
