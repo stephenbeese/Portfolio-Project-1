@@ -49,5 +49,29 @@ https://stephenbeese.github.io/Portfolio-Project-1/
 About Tetris section taken from Tetris Wikipedia - https://en.wikipedia.org/wiki/Tetris 
 <br>
 Tetris Facts section taken from dailydot.com - https://www.dailydot.com/parsec/tetris-game-facts/
+<br>
+Copyright Page text taken from the following:
+<br>
+- http://www.atarihq.com/tsr/special/tetrishist.html
+<br>
+- https://www.youtube.com/watch?v=wEMHkzUOIE4 
 <h3>Media</h3>
-N/A
+Images 
+<br>
+    - tetris-arcade.jpeg - https://www.vintagearcade.net/shop/arcade-games/tetris-arcade-game/
+    <br>
+    - tetris-nes.jpeg - https://en.wikipedia.org/wiki/Tetris_(NES_video_game)
+    <br>
+    - tetris-ibm-pc.webp - https://tetris.fandom.com/wiki/Tetris_(IBM_PC)
+    <br>
+    - electronica-60.png - https://awesomegames.miraheze.org/wiki/Tetris_(1984)
+    <br>
+    - Tetris-on-Game-Boy.jpeg - https://commons.wikimedia.org/wiki/File:Tetris_on_Game_Boy.jpg 
+    <br>
+    - tetris-background.jpeg - https://tetris.com/article/35/tetris-lingo-every-player-should-know
+    <br>
+    - tetris-tengen.jpeg - https://tetris.wiki/Tetris_(NES,_Tengen) 
+    <br>
+    - tetris-logo.png - https://en.wikipedia.org/wiki/The_Tetris_Company 
+    <br>
+    - tetris-gameboy.jpg - https://unsplash.com/photos/lUbIun4IL38 
