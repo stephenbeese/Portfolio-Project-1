@@ -12,8 +12,8 @@ h1, h2 {
     font-weight: 400;
 }
 
-h2 {
-    font-size: 200%;
+h1 {
+    font-size: 300%;
 }
 
 p {
@@ -76,6 +76,10 @@ header hr {
     margin-right: 30%;
 }
 
+#about-tetris h2 {
+    font-size: 250%
+}
+
 /* Tetris Facts */
 
 #tetris-facts {
@@ -90,11 +94,18 @@ header hr {
     border: 2px solid black;
     margin-right: 30px;
     padding-right: 5px; 
+    padding-bottom: 50px;
     font-size: 120%;
+    border-radius: 30px;
 }
 
 #tetris-facts > h2 {
     text-align: center;
+    font-size: 200%;
+}
+
+#tetris-facts ul {
+    padding-bottom: 50px;
 }
 
 .facts {
