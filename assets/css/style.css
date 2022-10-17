@@ -96,6 +96,10 @@ header hr {
     text-align: center;
 }
 
+.facts {
+    padding: 5px;
+}
+
 /* Footer */
 
 footer { 
