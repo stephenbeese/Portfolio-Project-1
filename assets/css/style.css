@@ -7,7 +7,10 @@ body {
     background-color: black;
     color: white;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Press Start 2P', cursive;
     font-weight: 400;
 }
@@ -19,9 +22,10 @@ h1 {
 p {
     font-size: 110%;
 }
+
 /* Header */
 
-header > h1 {
+header>h1 {
     text-align: center;
     top: 200px;
 }
@@ -93,13 +97,13 @@ header hr {
     color: black;
     border: 2px solid black;
     margin-right: 30px;
-    padding-right: 5px; 
+    padding-right: 5px;
     padding-bottom: 50px;
     font-size: 120%;
     border-radius: 30px;
 }
 
-#tetris-facts > h2 {
+#tetris-facts>h2 {
     text-align: center;
     font-size: 200%;
 }
@@ -114,7 +118,7 @@ header hr {
 
 /* Footer */
 
-footer { 
+footer {
     height: 100px;
     min-width: 100%;
     text-align: center;
@@ -219,12 +223,12 @@ section h2 {
 
 /* High Scores Page */
 
-table, tr, td, th {
+table,
+tr,
+td,
+th {
     border: 1px solid white;
 }
-
-
-
 
 /* Sign Up Page */
 
@@ -279,17 +283,15 @@ form input {
 form button {
     display: block;
     padding: 10px;
-    margin: 10px auto;    
+    margin: 10px auto;
     border-radius: 10px;
 }
 
 form button:hover {
-    background-color: orange; 
+    background-color: orange;
     font-weight: bold;
 }
 
 form button:nth-child(odd) {
     margin-top: 25px;
 }
-
-
