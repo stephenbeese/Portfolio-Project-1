@@ -37,14 +37,32 @@
     </header>
 
     <section>
-        <div class="signup-form">
-            <div>
-                <form> 
-                    
-                </form>
-            </div>
+        <h2 id="signup-heading">Sign Up to Our Mailing List!</h2>
+        <div class="signup-background">
         </div>
-        Sign up to mailing list form. 
+        <div class="form">
+            <form id="sign-up" name="sign-up" method="post" action="#"> 
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="first-name" required>
+                <label for="lname">Surname:</label>
+                <input type="text" id="lname" name="last-name">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="hours">How many hours of Tetris do you play per week?</label>
+                <select id="hours" name="hours">
+                    <option value="0-2">0-2</option>
+                    <option value="3-5">3-5</option>
+                    <option value="6-8">6-8</option>
+                    <option value="8-10">8-10</option>
+                    <option value="10-12">10-12</option>
+                    <option value="13-15">13-15</option>
+                    <option value="15+">15+</option>
+                </select>
+                <button type="submit">Sign Up!</button>
+                <button type="reset">Clear</button>
+            </form>
+        </div>
+        <hr>
     </section>
 
     <footer id="footer">
