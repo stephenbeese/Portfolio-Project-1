@@ -56,15 +56,19 @@ Copyright Page text taken from the following:
 <br>
 - https://www.youtube.com/watch?v=wEMHkzUOIE4 
 <br>
-High Scores Page
+High Scores Page text taken from the following: 
 <br>
 - Table - https://tetris.wiki/Scoring#Original_Nintendo_scoring_system
 <br>
-- Competitive Scoring History Section Text
+- https://www.youtube.com/watch?v=bDsaQsCWbw4
+<br>
+- https://www.youtube.com/watch?v=n-BZ5-Q48lE&t=497s
 <br>
 - https://thectwc.com/history/ 
 <br>
 - https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga
+
+
 <h3>Media</h3>
 Images 
 <br>
