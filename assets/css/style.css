@@ -353,6 +353,12 @@ form button:nth-child(odd) {
     font-weight: 300;
 }
 
+.timeline-content .date {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
 .timeline-content img {
     float: right;
     position: relative;
@@ -420,5 +426,10 @@ form button:nth-child(odd) {
 
     .timeline ul li:hover::after{
         background-color: #aa3456;
+    }
+
+    .timeline-content .date {
+        position: absolute;
+        top: -30px;
     }
 }
