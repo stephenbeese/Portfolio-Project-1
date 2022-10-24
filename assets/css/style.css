@@ -367,22 +367,64 @@ form button:nth-child(odd) {
     padding-top: 20px;
 }
 
-.nes-box {
-    width: 100px;
-    height: 137px;
-}
-
 #electronica-timeline {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
 }
 
 #ibm-timeline {
-    width: 160px;
-    height: 100px;
-    padding-left: 10px;
-    margin-left: 0;
-    top: -20px;
+    width: 200px;
+    height: 126px;
+}
+
+#c64-timeline {
+    width: 150px;
+    height: 215px;
+}
+
+#gameboy-timeline {
+    width: 170px;
+    height: 170px;
+}
+
+#tengen-timeline {
+    width: 150px;
+    height: 212px;
+}
+
+#nes-timeline {
+    width: 150px;
+    height: 206px;
+}
+
+#snes-timeline {
+    width: 200px;
+    height: 140px;
+}
+
+#magical-timeline {
+    width: 180px;
+    height: 169px;
+}
+
+#party-timeline {
+    width: 150px;
+    height: 211px;
+}
+
+#puyo-timeline {
+    width: 150px;
+    height: 242px;
+}
+
+#tetris-99-timeline {
+    width: 150px;
+    height: 242px;
+}
+
+#effect-timeline {
+    width: 170px;
+    height: 211px;
 }
 
 @media only screen and (min-width: 768px) {
