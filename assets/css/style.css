@@ -359,5 +359,36 @@ form button:nth-child(odd) {
     height: 137px;
     bottom: 20px;
     margin: 20px;
+    padding-top: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    .timeline::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+    }
+
+    .timeline ul li {
+        width: 50%;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-100px);
+    }
+    
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(60px);
+
+    }
+}
