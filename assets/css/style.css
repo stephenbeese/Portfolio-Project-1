@@ -388,12 +388,14 @@ form button:nth-child(odd) {
         float: left;
         clear: right;
         transform: translateX(-100px);
+        border-radius: 20px 0px 20px 20px;
     }
     
     .timeline ul li:nth-child(even) {
         float: right;
         clear: left;
         transform: translateX(60px);
+        border-radius: 0px 20px 20px 20px;
     }
 
     .timeline ul li::after {
@@ -416,5 +418,7 @@ form button:nth-child(odd) {
         left: -40px;
     }
 
-    
+    .timeline ul li:hover::after{
+        background-color: #aa3456;
+    }
 }
