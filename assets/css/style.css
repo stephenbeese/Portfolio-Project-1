@@ -363,14 +363,26 @@ form button:nth-child(odd) {
     float: right;
     position: relative;
     display: block;
+    margin: 20px;
+    padding-top: 20px;
 }
 
 .nes-box {
     width: 100px;
     height: 137px;
-    bottom: 20px;
-    margin: 20px;
-    padding-top: 20px;
+}
+
+#electronica-timeline {
+    width: 150px;
+    height: 150px;
+}
+
+#ibm-timeline {
+    width: 160px;
+    height: 100px;
+    padding-left: 10px;
+    margin-left: 0;
+    top: -20px;
 }
 
 @media only screen and (min-width: 768px) {
