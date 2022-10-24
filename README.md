@@ -67,6 +67,8 @@ High Scores Page text taken from the following:
 - https://thectwc.com/history/ 
 <br>
 - https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga
+<br>
+Timeline inspired by : https://www.youtube.com/watch?v=zNccqv0g6Q4
 
 
 <h3>Media</h3>
