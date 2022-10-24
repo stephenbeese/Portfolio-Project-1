@@ -326,3 +326,34 @@ form button:nth-child(odd) {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h1 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.timeline-content img {
+    float: right;
+    position: relative;
+    display: block;
+}
+
+.nes-box {
+    width: 100px;
+    height: 137px;
+    bottom: 20px;
+    margin: 20px;
+}
+
