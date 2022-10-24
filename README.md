@@ -69,7 +69,15 @@ High Scores Page text taken from the following:
 - https://www.polygon.com/23269073/competitive-classic-tetris-ctwc-jonas-neubauer-andy-michael-artiaga
 <br>
 Timeline inspired by : https://www.youtube.com/watch?v=zNccqv0g6Q4
-
+<br>
+Timeline text taken from the following: 
+<br>
+- https://tetris.fandom.com/wiki/List_of_games 
+<br>
+- https://en.wikipedia.org/wiki/Tetris_Party 
+<br>
+- https://en.wikipedia.org/wiki/Tetris_Effect 
+<br>
 
 <h3>Media</h3>
 Images 
@@ -91,3 +99,23 @@ Images
     - tetris-logo.png - https://en.wikipedia.org/wiki/The_Tetris_Company 
     <br>
     - tetris-gameboy.jpg - https://unsplash.com/photos/lUbIun4IL38 
+    <br>
+    electronica-timeline.png - https://www.deviantart.com/rage-dssviper-sigma/art/Tetris-The-Grand-Master-Electronica-60-Style-569447060
+    <br>
+    ibm-pc-timeline.png - https://online.oldgames.sk/play/dos/tetris/10050
+    <br>
+    c64-timeline.jpeg - https://gamesdb.launchbox-app.com/games/images/144159
+    <br>
+    gameboy-timeline.jpeg - https://www.mobygames.com/game/gameboy/tetris_gb/cover-art/gameCoverId,116199/ 
+    <br>
+    snes-timeline.jpg - https://tetris.wiki/Tetris_%26_Dr._Mario 
+    <br>
+    magical-timeline.png - https://www.deviantart.com/artchanxv/art/Magical-Tetris-Challenge-PS1-US-Box-Art-919440126 
+    <br>
+    party-timeline.png - https://gamesdb.launchbox-app.com/games/images/23789 
+    <br>
+    Puyo-timeline.png - https://www.deviantart.com/goldmetalsonic/art/Puyo-Puyo-Tetris-Nintendo-Switch-Boxart-659832650 
+    <br>
+    99-timeline.jpg - https://www.amazon.co.uk/Tetris-99-NSO-Nintendo-Switch/dp/B07V8KPHS1 
+    <br>
+    effect-timeline.jpeg - https://www.mobygames.com/game/playstation-4/tetris-effect/cover-art/gameCoverId,541797/ 
