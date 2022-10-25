@@ -267,6 +267,27 @@ th {
     border: 1px solid white;
 }
 
+#championship {
+    height: 35%;
+    width: 35%;
+    float: left;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+}
+
+#rolling {
+    width: 500px;
+    height: 281px;
+    float: right;
+    margin: 30px 50px 30px 30px;
+    top: -30px;
+}
+
+#youtube-scores {
+    float: left;
+    margin: 30px 30px 50px 30px;
+}
+
 /* Sign Up Page */
 
 #signup-heading {
