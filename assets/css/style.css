@@ -118,6 +118,14 @@ header hr {
     padding-bottom: 50px;
 }
 
+#tetris-facts ul li {
+    padding: 10px;
+}
+
+#tetris-facts ul li:last-child {
+    margin-bottom: 20px;
+}
+
 .facts {
     padding: 5px;
 }
@@ -543,3 +551,84 @@ form button:nth-child(odd) {
         top: -30px;
     }
 }
+
+
+    /* Responsive - Index Page*/
+
+    @media only screen and (max-width: 1474px) {
+        #tetris-facts {
+            font-size: 110%;
+            padding-bottom: 70px;
+        }
+
+        #tetris-facts>h2 {
+            margin-bottom: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+
+        #menu {
+            width: unset;
+            padding-left: 0px;
+        }
+
+        #tetris-facts {
+            top: -500px;
+            padding-bottom: 60px;
+        }
+
+        #spotify {
+            right: -220px;
+            width: unset;
+            height: unset;
+        }
+
+        .spotify {
+            width: 150%;
+        }
+    }
+
+
+    @media only screen and (max-width: 1181px) {
+
+        #tetris-facts {
+            font-size: 100%;
+        }
+
+        #tetris-facts ul li {
+            padding: 8px;
+        }
+
+        #youtube {
+            margin-top: 50px;
+        }
+
+        .youtube {
+            width: 500px;
+        }
+    }
+
+    @media only screen and (max-width: 1060px) {
+
+        .spotify {
+            width: 80%;   
+        }
+
+        #spotify {
+            right: -330px;
+        }
+
+        #tetris-facts {
+            top: -600px;
+            padding-bottom: 130px;
+            font-size: 110%;
+        }
+    }
+
+    @media only screen and (max-width: 957px) {
+        #tetris-facts {
+            font-size: 100%;
+        }
+    }
+
