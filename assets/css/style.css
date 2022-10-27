@@ -611,6 +611,10 @@ form button:nth-child(odd) {
 
     @media only screen and (max-width: 1060px) {
 
+        #menu {
+            font-size: 140%;
+        }
+
         .spotify {
             width: 80%;   
         }
@@ -627,8 +631,82 @@ form button:nth-child(odd) {
     }
 
     @media only screen and (max-width: 957px) {
+
         #tetris-facts {
             font-size: 100%;
         }
+
+        #menu {
+            font-size: 130%;
+        }
+
+        #menu li {
+            margin-left: 11%;
+            margin-right: unset;
+        }
+
+        .youtube {
+            width: 400px;
+        }
+
+        #spotify {
+            top: -370px;
+        }
     }
 
+    @media only screen and (max-width: 830px) {
+        
+        #tetris-facts {
+            top: -630px;
+        }
+    }
+
+    @media only screen and (max-width: 764px) {
+        
+        #tetris-facts {
+            font-size: 110%;
+            display: block;
+            position: unset;
+            top: unset;
+            float: unset;
+            width: 80%;
+            height: unset;
+            margin-right: unset;
+            padding-right: unset;
+            padding-bottom: unset;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        #tetris-facts ul {
+            padding-bottom: 0px;
+        }
+
+        #about-tetris {
+            margin-right: 30px;
+        }
+
+        .youtube {
+            width: 350px;
+        }
+
+        #spotify {
+            right: -60px;
+        }
+    }
+
+    @media only screen and (max-width: 722px) {
+        .spotify {
+            margin-left: 10%;
+        }
+
+        #spotify {
+            float: unset;
+            position: unset;
+            margin: unset;
+        }
+
+        .youtube {
+            width: 100%;
+        }
+    }
