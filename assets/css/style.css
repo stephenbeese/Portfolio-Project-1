@@ -703,6 +703,7 @@ form button:nth-child(odd) {
 
         .spotify {
             margin-left: 10%;
+            margin-top: 20px;
         }
 
         #spotify {
@@ -825,33 +826,6 @@ form button:nth-child(odd) {
             font-size: 200%;
         }
 
-        footer hr:last-child {
-            margin-top: 15px;
-        }
-
-        #mailing-list {
-            width: 80px;
-            margin-top: 0px;
-        }
-
-        #disclaimer {
-            width: 80px;
-            margin-top: 0px;
-            padding-bottom: 2px;
-        }
-
-        #tetris-logo {
-            width: 90%;
-        }
-    }
-
-    @media only screen and (max-width: 360px) {
-        
-        
-        header>h1 {
-            font-size: 275%;
-        }
-        
         #disclaimer {
             width: 90%;
             float: unset;
@@ -873,6 +847,22 @@ form button:nth-child(odd) {
             padding: 10px;
             margin-top: 5px;
             margin-bottom: 5px;
+        }
+
+        #tetris-logo {
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width: 360px) {
+        
+        
+        header>h1 {
+            font-size: 275%;
+        }
+
+        #tetris-logo {
+            width: 80%;
         }
     }
 
