@@ -661,7 +661,7 @@ form button:nth-child(odd) {
         }
     }
 
-    @media only screen and (max-width: 764px) {
+    @media only screen and (max-width: 800px) {
         
         #tetris-facts {
             font-size: 110%;
@@ -696,6 +696,11 @@ form button:nth-child(odd) {
     }
 
     @media only screen and (max-width: 722px) {
+        
+        header>h1 {
+            margin-bottom: 10px;
+        }
+
         .spotify {
             margin-left: 10%;
         }
@@ -709,4 +714,166 @@ form button:nth-child(odd) {
         .youtube {
             width: 100%;
         }
+
+        footer a {
+            padding: 1%;
+            top: 20px;
+        }
+
+        footer hr:last-child {
+            margin-top: 20px;
+        }
+
+        #menu li {
+            margin-left: 9%;
+        }
+        
+        header hr {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        footer hr {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        #mailing-list {
+            margin-left: 20px;
+        }
+
+        #disclaimer {
+            margin-right: 20px;
+        }
+
     }
+
+    @media only screen and (max-width: 598px) {
+
+        #menu {
+            margin: 10px 8px 10px 0px;
+        }
+
+        #menu li {
+            margin-left: 8%;
+        }
+
+        #mailing-list {
+            font-size: 60%;
+            width: 100px;
+        }
+
+        #disclaimer {
+            font-size: 50%;
+            width: 100px;
+
+        }
+
+        footer hr:last-child {
+            margin-top: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 545px) {
+        
+        #menu {
+            margin: 10px;
+        }
+
+        #menu li {
+            display: block;
+            margin: 0 auto;
+        }
+
+        #menu li a {
+            text-decoration: none;
+        }
+        
+        p {
+            font-size: 100%;
+        }
+
+        #about-tetris {
+            width: 87%;
+        }
+
+        #about-tetris h2 {
+            font-size: 220%;
+            margin-bottom: 20px;
+        }
+
+        #youtube {
+            margin: 30px 20px 0px 20px;
+        }
+
+        footer a {
+            font-size: 250%;
+        }
+        
+        #mailing-list {
+            font-size: 54%;
+        }
+
+        #disclaimer {
+            font-size: 43%;
+        }
+    }
+
+    @media only screen and (max-width: 422px) {
+        
+        footer a {
+            font-size: 200%;
+        }
+
+        footer hr:last-child {
+            margin-top: 15px;
+        }
+
+        #mailing-list {
+            width: 80px;
+            margin-top: 0px;
+        }
+
+        #disclaimer {
+            width: 80px;
+            margin-top: 0px;
+            padding-bottom: 2px;
+        }
+
+        #tetris-logo {
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width: 360px) {
+        
+        
+        header>h1 {
+            font-size: 275%;
+        }
+        
+        #disclaimer {
+            width: 90%;
+            float: unset;
+            margin: 0 auto;
+            font-size: 60%;
+            margin-top: 10px;
+        }
+
+        #mailing-list {
+            width: 90%;
+            float: unset;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            font-size: 70%;
+        }
+
+        footer a {
+            font-size: 250%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+
+
