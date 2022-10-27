@@ -590,6 +590,10 @@ form button:nth-child(odd) {
         #arcade {
             width: 15%;
         }
+
+        #electronica-60 {
+            width: 25%;
+        }
     }
 
 
