@@ -555,6 +555,45 @@ form button:nth-child(odd) {
 
     /* Responsive - Index Page*/
 
+
+    @media only screen and (min-width: 1474px) {
+        #arcade {
+            width: 18%;
+        }
+
+        #tetris-on-gameboy {
+            width: 20%;
+        }
+
+        #nes {
+            width: 15%;
+        }
+
+        #tengen {
+            width: 15%;
+        }
+    }
+
+    @media only screen and (min-width: 1669px) { 
+        #nes {
+            width: 11%;
+        }
+
+        #tengen {
+            width: 11%;
+        }
+
+        #tetris-on-gameboy {
+            width: 15%;
+        }
+
+        #arcade {
+            width: 15%;
+        }
+    }
+
+
+
     @media only screen and (max-width: 1474px) {
         #tetris-facts {
             font-size: 110%;
@@ -564,6 +603,7 @@ form button:nth-child(odd) {
         #tetris-facts>h2 {
             margin-bottom: 0px;
         }
+
     }
 
     @media only screen and (max-width: 1300px) {
@@ -651,6 +691,30 @@ form button:nth-child(odd) {
 
         #spotify {
             top: -370px;
+        }
+
+        #electronica-60 {
+            width: 50%;
+        }
+
+        #ibm-pc {
+            width: 50%;
+        }
+
+        #tetris-on-gameboy {
+            width: 35%;
+        }
+
+        #arcade {
+            width: 35%;
+        }
+
+        #tengen {
+            width: 30%;
+        }
+
+        #nes {
+            width: 30%;
         }
     }
 
@@ -747,6 +811,17 @@ form button:nth-child(odd) {
             margin-right: 20px;
         }
 
+        .copyright p {
+            font-size: 100%;
+        }
+
+        .scores p {
+            font-size: 100%;
+        }
+
+        section h2 {
+            font-size: 210%;
+        }
     }
 
     @media only screen and (max-width: 598px) {
@@ -773,6 +848,8 @@ form button:nth-child(odd) {
         footer hr:last-child {
             margin-top: 10px;
         }
+
+
     }
 
     @media only screen and (max-width: 545px) {
@@ -818,6 +895,32 @@ form button:nth-child(odd) {
         #disclaimer {
             font-size: 43%;
         }
+
+        #electronica-60 {
+            width: 60%;
+        }
+
+        #ibm-pc {
+            width: 60%;
+        }
+
+        #tetris-on-gameboy {
+            width: 40%;
+        }
+
+        #arcade {
+            width: 40%;
+        }
+
+        #tengen {
+            width: 35%;
+        }
+
+        #nes {
+            width: 35%;
+        }
+
+
     }
 
     @media only screen and (max-width: 422px) {
@@ -863,6 +966,27 @@ form button:nth-child(odd) {
 
         #tetris-logo {
             width: 80%;
+        }
+
+        .text-right {
+            text-align: left;
+        }
+
+        #electronica-60 {
+            width: 90%;
+        }
+
+        #ibm-pc {
+            width: 90%;
+            margin-right: 10px;
+        }
+
+        #tengen {
+            width: 50%;
+        }
+
+        #nes {
+            width: 50%;
         }
     }
 
