@@ -860,6 +860,76 @@ form button:nth-child(odd) {
         .timeline ul {
             padding-left: unset;
         }
+
+        #electronica-timeline {
+            width: 213px;
+            height: 213px;
+            margin: 0px 0px 0px 30px;
+            float: right;
+        }
+
+        #ibm-timeline {
+            width: 244px;
+            height: 152px;
+            margin: 0 0 0 30px;
+            float: right;
+        }
+
+        #c64-timeline {
+            width: 150px;
+            height: 215px;
+            position: relative;
+            right: 20px;
+            top: -15px;
+            margin-left: 30px;
+        }
+
+        #tengen-timeline {
+            position: relative;
+            top: -25px;
+            margin-top: 20px;
+        }
+
+        #nes-timeline {
+            width: 127px;
+            height: 182px;
+            position: relative;
+            top: -15px;
+        }
+
+        .padding-bottom {
+            padding-bottom: 50px;
+        }
+
+        #snes-timeline {
+            width: 199px;
+            height: 139px;
+            float: right;
+            margin-left: 10px;
+        }
+
+        #magical-timeline {
+            width: 170px;
+            height: 160px;
+            position: relative;
+            top: -25px;
+            margin-left: 10px;
+        }
+
+        #party-timeline {
+            height: 195px;
+            width: 139px;
+            position: relative;
+            top: -35px;
+        }
+
+        #puyo-timeline, #tetris-99-timeline {
+            width: 118px;
+            height: 192px;
+            margin: 0 20px;
+            position: relative;
+            top: -5px;
+        }
     }
 
 
@@ -927,6 +997,10 @@ form button:nth-child(odd) {
         #championship {
             margin-right: 20px;
         }
+
+        #party-timeline {
+            top: -15px;
+        }
     }
 
     @media only screen and (max-width: 598px) {
@@ -952,6 +1026,33 @@ form button:nth-child(odd) {
 
         footer hr:last-child {
             margin-top: 10px;
+        }
+
+        #party-timeline {
+            top: 0px;
+        }
+
+        #magical-timeline {
+            position: unset;
+        }
+    }
+
+
+    @media only screen and (max-width: 564px) {
+        
+        #electronica-timeline {
+            margin: 0 auto;
+            float: unset;
+        }
+
+        #ibm-timeline {
+            float: unset;
+            margin: 0 auto;
+        }
+
+        #magical-timeline {
+            float: unset;
+            margin: 0 auto;
         }
     }
 
@@ -1047,6 +1148,20 @@ form button:nth-child(odd) {
             margin: unset;
             top: unset;
         }
+
+        .padding-bottom {
+            padding-bottom: 0px;
+        }
+
+        #snes-timeline {
+            position: unset;
+            margin: 0 auto;
+            float: unset;
+        }
+
+        .timeline-content h1 {
+            text-align: center;
+        }
     }
 
 
@@ -1056,6 +1171,31 @@ form button:nth-child(odd) {
             width: 100%;
             margin-right: unset;
             margin-bottom: 20px;
+        }
+
+        #c64-timeline {
+            position: unset;
+            margin: 0 auto;
+            float: unset;
+        }
+
+        #nes-timeline {
+            float: unset;
+            margin: 0 auto;
+            position: unset;
+        }
+
+        #party-timeline{
+            float: unset;
+            margin: 0 auto;
+        }
+
+        .timeline-content p {
+            font-size: 15px;
+        }
+
+        .timeline-content h1 {
+            font-size: 24px;
         }
     }
 
@@ -1095,7 +1235,26 @@ form button:nth-child(odd) {
         section h2 {
             font-size: 150%;
         }
+
+        #gameboy-timeline {
+            float: unset;
+            margin: 0 auto;
+        }
+
+        .timeline-content h1 {
+            font-size: 1.3em;
+        }
+
+
+        #puyo-timeline, #tetris-99-timeline, #tengen-timeline, #effect-timeline {
+            position: unset;
+            float: unset;
+            margin: 0 auto;
+        }
+
+
     }
+
 
     @media only screen and (max-width: 360px) {
         
@@ -1135,6 +1294,19 @@ form button:nth-child(odd) {
 
         p {
             font-size: 18px;
+        }
+
+        #ibm-timeline {
+            width: 100%;
+        }
+
+        #electronica-timeline {
+            width: 194px;
+            height: 170px;
+        }
+
+        .timeline-content h1 {
+            font-size: 1.15em;
         }
     }
 
