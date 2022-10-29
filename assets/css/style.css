@@ -38,7 +38,7 @@ header>h1 {
 
 #tetris-logo {
     display: block;
-    margin: 0 auto;
+    text-align: center;
 }
 
 #menu {
@@ -1197,6 +1197,10 @@ form button:nth-child(odd) {
         .timeline-content h1 {
             font-size: 24px;
         }
+
+        #timeline-header {
+            font-size: 241%;
+        }
     }
 
     @media only screen and (max-width: 422px) {
@@ -1308,6 +1312,26 @@ form button:nth-child(odd) {
         .timeline-content h1 {
             font-size: 1.15em;
         }
+
+        #timeline-header {
+            font-size: 2em;
+        }
     }
+
+
+        @media only screen and (max-width: 325px) {
+            .timeline-content h1 {
+                font-size: 1.05em;
+            }
+
+            #electronica-timeline {
+                width: 187px;
+            }
+
+            #snes-timeline {
+                width: 185px;
+                height: 132px;
+            }
+        }
 
 
