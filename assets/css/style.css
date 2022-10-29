@@ -670,6 +670,10 @@ form button:nth-child(odd) {
             padding-bottom: 130px;
             font-size: 110%;
         }
+
+        .timeline-content img {
+            margin: 7px;
+        }
     }
 
     @media only screen and (max-width: 957px) {
@@ -718,12 +722,74 @@ form button:nth-child(odd) {
         #nes {
             width: 30%;
         }
+        .timeline-content img {
+            margin: 7px 7px 0px;
+        }
+
+        #electronica-timeline {
+            width: 66%;
+        }
+
+        #ibm-timeline {
+            width: 90%;
+            height: unset;
+            margin: 0 auto;
+            float: unset;
+        }
+    }
+
+    @media only screen and (max-width: 896px) {
+        #electronica-timeline {
+            width: 90%;
+            margin: 0 auto;
+            float: none;
+        }
+
+        #nes-timeline {
+            width: 139px;
+            height: unset;
+        }
+    }
+
+    @media only screen and (max-width: 864px) {
+        #snes-timeline {
+            width: 90%;
+            height: unset;
+            margin: 0 auto;
+            float: none;
+        }
+
+        #party-timeline {
+            width: 136px;
+            height: unset;
+        }
+
+        #nes-timeline {
+            width: 133px;
+        }
+
+        #effect-timeline {
+            width: 158px;
+            height: unset;
+        }
     }
 
     @media only screen and (max-width: 830px) {
         
         #tetris-facts {
             top: -630px;
+        }
+
+        #effect-timeline {
+            width: 150px;
+        }
+
+        #party-timeline {
+            width: 120px;
+        }
+
+        #nes-timeline {
+            width: 120px;
         }
     }
 
@@ -759,7 +825,44 @@ form button:nth-child(odd) {
         #spotify {
             right: -60px;
         }
+
+        #tengen-timeline {
+            width: 140px;
+            height: unset;
+        }
+
+        #nes-timeline {
+            width: 112px;
+        }
+
+        #party-timeline {
+            width: 110px;
+        }
+
+        #effect-timeline {
+            width: 137px;
+        }
     }
+
+    @media only screen and (max-width: 778px) {
+
+        #nes-timeline {
+            width: 108px;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+    
+        .timeline {
+            width: 90%;
+        }
+
+        .timeline ul {
+            padding-left: unset;
+        }
+    }
+
+
 
     @media only screen and (max-width: 722px) {
         
@@ -1025,6 +1128,7 @@ form button:nth-child(odd) {
         #nes {
             width: 50%;
         }
+
         section h2 {
             font-size: 130%;
         }
