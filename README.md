@@ -1,8 +1,8 @@
 # The History of Tetris
 
-The History of Tetris is a page dedicated to the history of one of the most popular video games to date. It offers information on Tetris' copyright and competitive scene history, as well as showing a timeline of notable versions of Tetris throughout the years in the form of a timeline. 
+The History of Tetris is a page dedicated to the history of one of the most popular video games of all time. This website offers information on Tetris' copyright and competitive scene history, as well as sharing notable versions of Tetris throughout the years in the form of a timeline. 
 
-Users of this site will be able to find out any information they need regarding Tetris and it's history surrounding copyright, highscores/competitive scene and notable versions of the game. The target audience for this site is people of any age who have interest for Tetris.
+Users of this site will be able to find out any information they need regarding Tetris and it's history surrounding copyright, highscores/competitive scene and notable versions of the game. The target audience for this site is anyone who has an interest for Tetris.
 
 ![Responsive Website](./assets/images/readme/tetris-website.png)
 
@@ -10,13 +10,13 @@ Users of this site will be able to find out any information they need regarding 
 
 -  ### **Header & Navigation** 
 
-The header features on all pages, it includes a nav bar that links to the other main pages on the site. Every page has an identical header to allow for easy navigation. The Tetris logo is also clickable to get back to the home page as some users could expect this.
+The header, which is featured on all pages, includes a nav bar that links to the other main pages on the site. Every page has an identical header to allow for easy navigation. The Tetris logo is also clickable to get back to the home page as some users could expect this.
 
 ![Header](./assets/images/readme/header.png)
 
 - ### **Embedded YouTube and Spotify**
 
-Embedded youtube videos and spotify have been used to keep the user engaged and want to know more. This is beneficial as the user will spend more time on this site. 
+Embedded YouTube videos and Spotify have been used to keep the user engaged and want to know more. This is beneficial as the user will spend more time on this site. 
 
 ![Embedded YouTube and Spotify](./assets/images/readme/youtube-spotify.png)
 
@@ -28,13 +28,13 @@ The timeline page features a vertical timeline to allow the user to easily view 
 
 - ### **Sign Up Page**
 
-This page allows the user to sign up to a mailing list. The user will have to give their first name and email address to sign up with the option of leaving out their surname or how many time they play Tetris. Users also have the option to clear the form if they make a mistake or change their mind. 
+This page allows the user to sign up to a mailing list. The user will be required to give their first name and email address to sign up. With the option of leaving out their surname or how many hours they play Tetris per week. Users also have the option to clear the form if they make a mistake or change their mind. 
 
 ![Mailing list](./assets/images/readme/form.png)
 
 - ### **Footer**
 
-The footer includes links to Tetris' Social Media platforms as well as links to the sign up page and the README.md for image and content credits. the README.md and each Social Media link opens in a new tab to allow for easy navigation for the user. The footer encourages the user to keep engaged with the latest Tetris developments. 
+The footer includes links to Tetris' social media platforms. It also contains links to the sign up page and the README.md file for image and content credits. The README.md and each social media link opens in a new tab to allow for easy navigation for the user. The footer encourages the user to keep engaged with the latest Tetris developments. 
 
 ![Footer](./assets/images/readme/footer.png)
 
@@ -45,30 +45,28 @@ The footer includes links to Tetris' Social Media platforms as well as links to 
 
 ### Validator Testing
 - #### **HTML**
-    All pages have been through the official [W3C validator](https://validator.w3.org/) and the following is the output for each: 
+    All pages have been through the official [W3C validator](https://validator.w3.org/) and produced the following output: 
 
     - **Home Page** 
         - Error for Youtube and Spotify iframe - "The frameborder attribute on the iframe element is obsolete. Use CSS instead." 
     
     - **Copyright Page**
-        - No errors
+        - No errors.
 
     - **High Scores Page**
         - Error for Youtube iframe - "The frameborder attribute on the iframe element is obsolete. Use CSS instead."
 
     - **Timeline Page**
-        - Warning for timeline list items all containing h1 elements - "Consider using the h1 element as a top-level heading only"
+        - Warning for timeline list items, all contain h1 element - "Consider using the h1 element as a top-level heading only."
 
-    - **Sign up Page**
-        - No errors
+    - **Sign Up Page**
+        - No errors.
 
 - **CSS**
-
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstephenbeese.github.io%2FPortfolio-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstephenbeese.github.io%2FThe-History-of-Tetris%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 - **Accessibility**
     - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools 
-
 
 ![Lighthouse Results](./assets/images/readme/lighthouse.png)
 
@@ -82,7 +80,7 @@ The footer includes links to Tetris' Social Media platforms as well as links to 
     - From the side bar navigate to pages
     - Once pages has been selected the page will show a link to the live website. 
 
-The live link can be found here: https://stephenbeese.github.io/Portfolio-Project-1/ 
+The live link can be found here: https://stephenbeese.github.io/The-History-of-Tetris/ 
 
 ## Credits
 <hr>
@@ -165,7 +163,7 @@ Sign up form centering horizontally and vertically - https://www.youtube.com/wat
 - effect-timeline.jpeg - https://www.mobygames.com/game/playstation-4/tetris-effect/cover-art/gameCoverId,541797/ 
 
 
-## Youtube / Spotify Links 
+### Youtube / Spotify Links 
 
 - https://www.youtube.com/watch?v=wEMHkzUOIE4 
 
