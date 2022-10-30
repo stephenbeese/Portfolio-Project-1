@@ -570,51 +570,7 @@ form button:nth-child(odd) {
 
 
     /* Responsive */
-
-
-    @media only screen and (min-width: 1474px) {
-        #arcade {
-            width: 18%;
-        }
-
-        #tetris-on-gameboy {
-            width: 20%;
-        }
-
-        #nes {
-            width: 15%;
-        }
-
-        #tengen {
-            width: 15%;
-        }
-
-    }
-
-    @media only screen and (min-width: 1669px) { 
-        #nes {
-            width: 11%;
-        }
-
-        #tengen {
-            width: 11%;
-        }
-
-        #tetris-on-gameboy {
-            width: 15%;
-        }
-
-        #arcade {
-            width: 15%;
-        }
-
-        #electronica-60 {
-            width: 25%;
-        }
-    }
-
-
-
+    
     @media only screen and (max-width: 1474px) {
         #tetris-facts {
             font-size: 110%;
