@@ -20,39 +20,58 @@ Embedded youtube videos and spotify have been used to keep the user engaged and 
 
 ![Embedded YouTube and Spotify](./assets/images/readme/youtube-spotify.png)
 
-- ### **Timeline** 
+- ### **Timeline Page** 
+ 
+The timeline page features a vertical timeline to allow the user to easily view some of the most popular versions of the game. This benefits the user as they can quickly see information on each game. 
 
 ![Timeline](./assets/images/readme/timeline.png)
 
-- ### **Sign up to mailing list**
+- ### **Sign Up Page**
+
+This page allows the user to sign up to a mailing list. The user will have to give their first name and email address to sign up with the option of leaving out their surname or how many time they play Tetris. Users also have the option to clear the form if they make a mistake or change their mind. 
 
 ![Mailing list](./assets/images/readme/form.png)
 
 - ### **Footer**
 
+The footer includes links to Tetris' Social Media platforms as well as links to the sign up page and the README.md for image and content credits. the README.md and each Social Media link opens in a new tab to allow for easy navigation for the user. The footer encourages the user to keep engaged with the latest Tetris developments. 
+
 ![Footer](./assets/images/readme/footer.png)
 
 
 ## Testing 
-- N/A
+
+<hr>
+
+### Validator Testing
+- #### **HTML**
+    All pages have been through the official [W3C validator](https://validator.w3.org/) and the following is the output for each: 
+
+    - **Home Page** 
+        - Error for Youtube and Spotify iframe - "The frameborder attribute on the iframe element is obsolete. Use CSS instead." 
+    
+    - **Copyright Page**
+        - No errors
+
+    - **High Scores Page**
+        - Error for Youtube iframe - "The frameborder attribute on the iframe element is obsolete. Use CSS instead."
+
+    - **Timeline Page**
+        - Warning for timeline list items all containing h1 elements - "Consider using the h1 element as a top-level heading only"
+
+    - **Sign up Page**
+        - No errors
+
+- **CSS**
+
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstephenbeese.github.io%2FPortfolio-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- **Accessibility**
+
+    - N/A
 
 ## Bugs
 - N/A
-
-### Validator Testing
-- HTML
-
-    - N/A
-
-- CSS
-
-    - N/A
-
-- Accessibility
-
-    - N/A
-
-
 ### Unfixed Bugs
 - N/A
 
