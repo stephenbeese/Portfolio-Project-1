@@ -16,7 +16,7 @@ The header features on all pages, it includes a nav bar that links to the other 
 
 - ### **Embedded YouTube and Spotify**
 
-Embedded youtube videos and spotify have been used to keep the user engaged and want to know more. 
+Embedded youtube videos and spotify have been used to keep the user engaged and want to know more. This is beneficial as the user will spend more time on this site. 
 
 ![Embedded YouTube and Spotify](./assets/images/readme/youtube-spotify.png)
 
@@ -67,17 +67,22 @@ The footer includes links to Tetris' Social Media platforms as well as links to 
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fstephenbeese.github.io%2FPortfolio-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - **Accessibility**
+    - I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools 
 
-    - N/A
+
+![Lighthouse Results](./assets/images/readme/lighthouse.png)
 
 ## Bugs
-- N/A
 ### Unfixed Bugs
-- N/A
+- No unfixed bugs
 
 ## Deployment
-- This site was deployed to GitHub pages. You can view it via the live link below:
-https://stephenbeese.github.io/Portfolio-Project-1/ 
+- This site was deployed to GitHub pages. The deploy steps are as follows:
+    - In the GitHub repository, navigate to the settings tab
+    - From the side bar navigate to pages
+    - Once pages has been selected the page will show a link to the live website. 
+
+The live link can be found here: https://stephenbeese.github.io/Portfolio-Project-1/ 
 
 ## Credits
 <hr>
