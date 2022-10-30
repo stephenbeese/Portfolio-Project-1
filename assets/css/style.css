@@ -296,38 +296,53 @@ th {
 
 /* Sign Up Page */
 
+.relative {
+    position: relative;
+}
+
 #signup-heading {
-    position: absolute;
+    background-color: rgba(43, 137, 204, 0.63);
     z-index: 3;
-    display: inline;
-    left: 13%;
-    background-color: rgba(43, 137, 204, 0.5);
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
 .signup-background {
-    background-image: url(../images/tetris-background.jpeg);
     width: 100%;
-    height: 100vh;
     margin: 0 auto;
-    background-repeat: no-repeat;
     opacity: 0.6;
     z-index: 1;
-    display: inline-block;
+    display: flex;
+}
+
+#tetris-background {
+    width: 100%;
 }
 
 .form {
     background-color: rgba(43, 137, 204, 0.5);
-    height: auto;
-    width: auto;
+    width: 50%;
+    height: fit-content;
     z-index: 3;
-    position: absolute;
-    padding: 30px;
-    margin: 0 auto;
     font-size: 30px;
-    top: 500px;
-    left: 25%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 150px auto auto auto;
 }
 
 form label {
@@ -340,8 +355,8 @@ form select {
 }
 
 form input {
-    font-size: 70%;
-    margin-bottom: 20px;
+    font-size: 64%;
+    margin-bottom: 8px;
 }
 
 form button {

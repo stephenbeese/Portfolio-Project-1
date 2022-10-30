@@ -19,7 +19,7 @@
             <a href="index.html">
                 <img src="assets/images/tetris-logo.png" alt="Tetris Logo">
             </a>
-            </div>
+        </div>
         <hr>
         <nav>
             <ul id="menu">
@@ -40,32 +40,38 @@
         <hr>
     </header>
 
-    <section>
-        <h2 id="signup-heading">Sign Up to Our Mailing List!</h2>
+    <section class="relative">
         <div class="signup-background">
-        </div>
-        <div class="form">
-            <form id="sign-up" name="sign-up" method="post" action="#">
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="first-name" required>
-                <label for="lname">Surname:</label>
-                <input type="text" id="lname" name="last-name">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="hours">How many hours of Tetris do you play per week?</label>
-                <select id="hours" name="hours">
-                    <option value="0-2">0-2</option>
-                    <option value="3-5">3-5</option>
-                    <option value="6-8">6-8</option>
-                    <option value="8-10">8-10</option>
-                    <option value="10-12">10-12</option>
-                    <option value="13-15">13-15</option>
-                    <option value="15+">15+</option>
-                </select>
-                <button type="submit">Sign Up!</button>
-                <button type="reset">Clear</button>
-            </form>
-        </div>
+            <img id="tetris-background" src="./assets/images/tetris-background.jpeg" alt="tetris-background">
+                <div id="signup-heading">
+                    <h2>Sign Up to Our Mailing List!</h2>
+                </div>
+            </div>
+            <div>
+            
+                <div class="form">
+                    <form id="sign-up" name="sign-up" method="post" action="#">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="first-name" required>
+                        <label for="lname">Surname:</label>
+                        <input type="text" id="lname" name="last-name">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="hours">How many hours of Tetris do you play per week?</label>
+                        <select id="hours" name="hours">
+                            <option value="0-2">0-2</option>
+                            <option value="3-5">3-5</option>
+                            <option value="6-8">6-8</option>
+                            <option value="8-10">8-10</option>
+                            <option value="10-12">10-12</option>
+                            <option value="13-15">13-15</option>
+                            <option value="15+">15+</option>
+                        </select>
+                        <button type="submit">Sign Up!</button>
+                        <button type="reset">Clear</button>
+                    </form>
+                </div>
+            </div>
     </section>
 
     <div class="wrapper">
@@ -93,7 +99,8 @@
         </div>
         <p id="disclaimer">
             *Please note* - The images and some content are not mine. You can find the original sources linked in the
-            <a href="./README.md" target="_blank" rel="noopener" aria-label="View README.md file (opens in a new tab)">README.md</a> file
+            <a href="./README.md" target="_blank" rel="noopener"
+                aria-label="View README.md file (opens in a new tab)">README.md</a> file
         </p>
         <hr>
     </footer>
