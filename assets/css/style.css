@@ -312,7 +312,10 @@ th {
     top: 0;
     margin: 0 auto;
     text-align: center;
-    
+}
+
+#signup-heading h2 {
+    margin: 20px;
 }
 
 .signup-background {
@@ -342,7 +345,7 @@ th {
     left: 0;
     top: 0;
     bottom: 0;
-    margin: 150px auto auto auto;
+    margin: auto;
 }
 
 form label {
@@ -585,6 +588,7 @@ form button:nth-child(odd) {
         #tengen {
             width: 15%;
         }
+
     }
 
     @media only screen and (min-width: 1669px) { 
@@ -623,6 +627,18 @@ form button:nth-child(odd) {
 
     }
 
+    @media only screen and (max-width: 1400px) {
+
+        #signup-heading h2 {
+            font-size: 2.5em;
+        }
+
+        .form {
+            font-size: 1.6em;
+        }
+    }
+
+
     @media only screen and (max-width: 1300px) {
 
         #menu {
@@ -644,6 +660,15 @@ form button:nth-child(odd) {
         .spotify {
             width: 150%;
         }
+
+        #signup-heading h2 {
+            font-size: 2.1em;
+            margin: 17px;
+        }
+
+        .form {
+            font-size: 1.4em;
+        }
     }
 
 
@@ -663,6 +688,11 @@ form button:nth-child(odd) {
 
         .youtube {
             width: 500px;
+        }
+
+        .form {
+            margin-top: 110px;
+            font-size: 1.35em;
         }
     }
 
@@ -689,9 +719,42 @@ form button:nth-child(odd) {
         .timeline-content img {
             margin: 7px;
         }
+
+        .form {
+            margin-top: 80px;
+            font-size: 1.2em;
+        }
+
+        #signup-heading h2 {
+            font-size: 1.9em;
+        }
     }
 
-    @media only screen and (max-width: 957px) {
+    @media only screen and (max-width: 970px) {
+
+        .signup-background {
+            opacity: 0;
+        }
+
+        .relative {
+            background-color: rgba(43, 137, 204, 1);
+            border-radius: 20px;
+            height: 500px;
+        }
+
+        #signup-heading {
+            background-color: rgba(253, 99, 11, 0.8);
+            border-radius: 20px 20px 0 0;
+        }
+
+        .form {
+            background-color: rgba(253, 99, 11, 0.8);
+            border-radius: 20px;
+            margin-top: 100px;
+        }
+    }
+
+    @media only screen and (max-width: 960px) {
 
         #tetris-facts {
             font-size: 100%;
@@ -1069,6 +1132,14 @@ form button:nth-child(odd) {
             float: unset;
             margin: 0 auto;
         }
+
+        .form {
+            width: 70%;
+        }
+
+        #signup-heading h2 {
+            font-size: 1.7em;
+        }
     }
 
     @media only screen and (max-width: 545px) {
@@ -1177,6 +1248,14 @@ form button:nth-child(odd) {
         .timeline-content h1 {
             text-align: center;
         }
+
+        .form {
+            font-size: 1.1em;
+        }
+
+        #signup-heading h2 {
+            font-size: 1.5em;
+        }
     }
 
 
@@ -1215,6 +1294,16 @@ form button:nth-child(odd) {
 
         #timeline-header {
             font-size: 241%;
+        }
+
+        .form {
+            font-size: 0.9em;
+            width: 80%;
+            margin-top: 120px;
+        }
+
+        #signup-heading h2 {
+            font-size: 1.3em;
         }
     }
 
@@ -1331,6 +1420,9 @@ form button:nth-child(odd) {
 
         #timeline-header {
             font-size: 2em;
+        }
+        .form {
+            margin-top: 125px;
         }
     }
 
