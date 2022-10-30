@@ -559,7 +559,7 @@ form button:nth-child(odd) {
     }
 
     .timeline ul li:hover::after{
-        background-color: #aa3456;
+        background-color: rgba(43, 137, 204, 1);
     }
 
     .timeline-content .date {
